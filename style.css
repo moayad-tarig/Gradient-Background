@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Azeret Mono', monospace;
+}
+body {
+    background-image:  linear-gradient(to right,#B62E10,#12170B);
+}
+.color_inputs {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%  , -50%);
+}
+.color_inputs input {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+
+}
+.title {
+    margin: 100px auto;
+    text-align: center;
+}
+.title h1 {
+    font-weight: bold;
+    font-size: 40px;
+}
